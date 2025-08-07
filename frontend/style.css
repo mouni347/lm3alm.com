@@ -51,3 +51,23 @@ button {
 button:hover {
     background-color: #555;
 }
+
+nav {
+    position: absolute;
+    top: 1rem;
+    right: 1rem;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    margin-left: 1rem;
+    padding: 0.5rem 1rem;
+    border: 1px solid white;
+    border-radius: 5px;
+}
+
+nav a:hover {
+    background-color: white;
+    color: #333;
+}
